@@ -100,6 +100,6 @@ A web-based platform for conducting aptitude examinations.
 - LinkedIn: https://linkedin.com/in/vataparthi-deekshith
 - Email: vataparthideekshith18@gmail.com
 
----
+--- -----------------------------------------------------------------------------
 
 ⭐ Thank you for visiting my profile!
