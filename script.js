@@ -1,4 +1,5 @@
 /* ============================================================
+   javascript is logic bulider of the entire program .
    DEEKSHITH VATAPARTHI — PORTFOLIO SCRIPT
    Animations · Particles · Typing · Scroll Reveals · Data
    ============================================================ */
