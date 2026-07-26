@@ -1,5 +1,5 @@
 # portfolio
-### update the readme.
+
 # ABOUTME
 # Hi 👋, I'm Deekshith Vataparthi
 
@@ -81,6 +81,7 @@ A web-based platform for conducting aptitude examinations.
 - Generative AI Applications
 - GitHub Portfolio
 - Full Stack Development
+- linux
 
 ---
 
