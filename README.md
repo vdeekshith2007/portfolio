@@ -76,6 +76,7 @@ Become a Software Engineer who builds scalable products that solve real-world pr
 * Resume analysis using AI
 * Intelligent resume evaluation
 * User-friendly interface
+* gesture classification
 
 ---
 
