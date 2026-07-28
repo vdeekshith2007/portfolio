@@ -1,6 +1,7 @@
 # portfolio
 ### update the readme.
 # ABOUTME
+# let introduce of myself
 # Hi 👋, I'm Deekshith Vataparthi
 
 ### 🚀 AI/ML Enthusiast | Full Stack Developer | Computer Science Student |RAG,LLM,LANGCHAIN,LANGGRAPH
