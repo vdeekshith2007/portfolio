@@ -33,6 +33,7 @@
 * Large Language Models (LLMs)
 * Retrieval-Augmented Generation (RAG)
 * Cloud Computing
+* cyber seurity
 
 🎯 Goal:
 
@@ -99,6 +100,7 @@ Become a Software Engineer who builds scalable products that solve real-world pr
 * Machine Learning regression model
 * Data preprocessing
 * Prediction dashboard
+
 
 ---
 
