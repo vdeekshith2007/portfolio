@@ -2,6 +2,8 @@
    DEEKSHITH VATAPARTHI — PORTFOLIO SCRIPT
    Animations · Particles · Typing · Scroll Reveals · Data
    ============================================================ */
+
+   // new script file
 (function () {
   "use strict";
   /* ───────── LOADER ───────── */
