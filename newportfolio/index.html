@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description"
+    content="Deekshith Vataparthi — AI/ML Developer & Full Stack Engineer. Computer Science Student targeting top tech companies like NVIDIA, Google, Microsoft, Apple, Tesla.">
+  <title>Deekshith Vataparthi // AI/ML & Full Stack Engineer</title>
+  <link rel="shortcut icon" type="image/png" href="profile.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+  <script src="https://kit.fontawesome.com/49e50f0631.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <canvas id="cv"></canvas>
+  <div id="spotlight"></div>
+  <div id="progress"></div>
+  <button id="btt" aria-label="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+    <i class="bx bx-up-arrow-alt"></i>
+  </button>
+
+  <!-- ═══ BOOT SCREEN ═══ -->
+  <div id="boot">
+    <div class="boot-logo">deekshith_vataparthi.dev</div>
+    <div class="boot-bar-wrap">
+      <div class="boot-bar" id="bbar"></div>
+    </div>
+    <div class="boot-text" id="btxt">Initializing...</div>
+  </div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#home" class="logo">
+        <span class="logo-ps">~/</span><span class="logo-nm">deekshith</span><span class="logo-sb"></span>
+      </a>
+      <div class="nav-links" id="nl">
+        <a href="#home" class="act"><span class="nn">01.</span>home</a>
+        <a href="#about"> <span class="nn">02.</span>about</a>
+        <a href="#work"> <span class="nn">03.</span>projects</a>
+        <a href="#skills"> <span class="nn">04.</span>skills</a>
+        <a href="#journey"> <span class="nn">05.</span>journey</a>
+        <a href="#contact"> <span class="nn">06.</span>contact</a>
+      </div>
+      <div class="nav-r">
+        <button class="ibtn" id="tgl" aria-label="Toggle theme">
+          <i class="bx bx-sun i-sun"></i><i class="bx bx-moon i-moon"></i>
+        </button>
+        <button class="ibtn brgr" id="burg" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mdrw" id="mdrw" aria-hidden="true">
+    <div class="mscrim" id="mscrim"></div>
+    <nav class="mpnl" id="mpnl">
+      <a href="#home"> <span class="nn">01.</span>home</a>
+      <a href="#about"> <span class="nn">02.</span>about</a>
+      <a href="#work"> <span class="nn">03.</span>projects</a>
+      <a href="#skills"><span class="nn">04.</span>skills</a>
+      <a href="#journey"><span class="nn">05.</span>journey</a>
+      <a href="#contact"><span class="nn">06.</span>contact</a>
+    </nav>
+  </div>
+
+  <main>
+
+    <!-- HOME -->
+    <section id="home">
+      <div class="hero-grid">
+        <div class="hl">
+          <div class="h-badge"><span class="bdot"></span>open to opportunities &bull; targeting NVIDIA, Google, Microsoft</div>
+          <h1 class="h-name">Deekshith<br><span class="h-name-g" data-text="Vataparthi">Vataparthi</span></h1>
+          <div class="h-code">
+            <span class="kw">const</span> <span class="ka"> developer</span>
+            <span class="ko"> = </span>
+            <span class="ks">"AI/ML & Full Stack Engineer"</span>
+            <span class="ko"> // target&#x221E;</span>
+          </div>
+          <div class="h-term">
+            <div class="t-bar">
+              <div class="td td1"></div>
+              <div class="td td2"></div>
+              <div class="td td3"></div>
+              <span class="t-ttl">bash &mdash; deekshith@dev:~</span>
+            </div>
+            <div class="t-body">
+              <span class="t-ps"><span class="t-us">deekshith</span><span class="t-at">@</span><span
+                  class="t-ht">system</span><span class="t-at">:~$&nbsp;</span></span>
+              <span class="t-tx" id="typed-el"></span><span class="t-cr"></span>
+            </div>
+          </div>
+          <p class="h-desc"><strong>Computer Science Engineering Student</strong> passionate about Artificial Intelligence, Machine Learning, Generative AI, RAG Systems, and Full Stack Web Architecture. Driven to build high-impact intelligent software.</p>
+          <div class="h-actions">
+            <a href="#work" class="btn btn-a"><i class="bx bx-code-block"></i>View My Projects</a>
+            <a href="#contact" class="btn btn-b">Get in Touch</a>
+          </div>
+          <div class="h-soc">
+            <a href="https://github.com/deekshith-vataparthi" target="_blank" rel="noopener" aria-label="GitHub"><i
+                class="bx bxl-github"></i></a>
+            <a href="https://linkedin.com/in/deekshith" target="_blank" rel="noopener" aria-label="LinkedIn"><i
+                class="bx bxl-linkedin"></i></a>
+            <a href="https://leetcode.com/" target="_blank" rel="noopener" aria-label="LeetCode"><i class="fa-brands fa-leetcode"></i></a>
+            <a href="mailto:deekshith@example.com" aria-label="Email"><i
+                class="bx bx-envelope"></i></a>
+          </div>
+        </div>
+
+        <!-- Photo Card -->
+        <div class="ph-col">
+          <div class="ph-sc">
+            <div class="ph-card" id="pcard">
+              <img src="profile.svg" alt="Deekshith Vataparthi — AI/ML Developer & Full Stack Engineer" onerror="this.src='profile.svg'">
+              <div class="ph-ov"></div>
+              <div class="ph-sh" id="psh"></div>
+              <div class="ph-top"></div>
+              <div class="ph-sc2"></div>
+              <div class="ph-cn ph-tl"></div>
+              <div class="ph-cn ph-br"></div>
+              <div class="ph-bdg">
+                <div class="ph-dot"></div>
+                <span class="ph-txt">Open to Opportunities</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="div"></div>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="W">
+        <div class="rv from-left">
+          <span class="ey">About</span>
+          <h2 class="st">Who I Am</h2>
+        </div>
+        <div class="ab-grid">
+          <div class="ab-txt rv from-left" data-d="1">
+            <p>I am a passionate <strong>Computer Science Engineering student</strong> interested in <strong>Artificial Intelligence, Machine Learning, Full Stack Development, Generative AI, Cloud Computing,</strong> and <strong>Software Engineering</strong>.</p>
+            <p>I enjoy building real-world projects using modern technologies — from intelligent <strong>RAG-powered LLM chatbots</strong> and <strong>deep learning computer vision systems</strong> to secure full-stack web platforms. I continuously improve my problem-solving skills through Data Structures and Algorithms.</p>
+            <p>Career Goal: To become a top-tier software engineer at product-based tech giants like <strong>NVIDIA, Google, Microsoft, Apple, Tesla, Cisco,</strong> and <strong>Ericsson</strong>.</p>
+            <a href="#contact" class="btn btn-b" style="align-self:flex-start;margin-top:8px">
+              <i class="bx bx-download"></i>Download Resume
+            </a>
+          </div>
+          <div class="rv from-right" data-d="2">
+            <div class="cp">
+              <div class="cp-bar">
+                <div class="cp-ds"><span class="cpd1"></span><span class="cpd2"></span><span class="cpd3"></span></div>
+                <span class="cp-fn">deekshith.config.json</span>
+              </div>
+              <div class="cp-body">
+                <div class="cp-ln"><span class="ln-n">1</span><span class="lp">{</span></div>
+                <div class="cp-ln"><span class="ln-n">2</span>&nbsp;&nbsp;<span class="ls">"name"</span><span
+                    class="lp">: </span><span class="la">"Deekshith Vataparthi"</span><span class="lp">,</span></div>
+                <div class="cp-ln"><span class="ln-n">3</span>&nbsp;&nbsp;<span class="ls">"education"</span><span
+                    class="lp">: </span><span class="la">"B.Tech CSE"</span><span class="lp">,</span></div>
+                <div class="cp-ln"><span class="ln-n">4</span>&nbsp;&nbsp;<span class="ls">"address"</span><span
+                    class="lp">: </span><span class="la">"Berivanikandriga, Vadamalapeta, Tirupati, Andhra Pradesh, India - 517551"</span><span class="lp">,</span></div>
+                <div class="cp-ln"><span class="ln-n">5</span>&nbsp;&nbsp;<span class="ls">"email"</span><span
+                    class="lp">: </span><span class="lv"><a
+                      href="mailto:deekshith@example.com?subject=Contact%20from%20Portfolio">"deekshith@example.com"</a></span><span
+                    class="lp">,</span></div>
+                <div class="cp-ln"><span class="ln-n">6</span>&nbsp;&nbsp;<span class="ls">"focus"</span><span
+                    class="lp">: </span><span class="lv">["AI/ML", "Generative AI", "Full Stack", "DSA"]</span><span class="lp">,</span>
+                </div>
+                <div class="cp-ln"><span class="ln-n">7</span>&nbsp;&nbsp;<span class="ls">"target_companies"</span><span
+                    class="lp">: </span><span class="lv">["NVIDIA", "Google", "Microsoft", "Apple", "Tesla"]</span><span class="lp">,</span></div>
+                <div class="cp-ln"><span class="ln-n">8</span>&nbsp;&nbsp;<span class="ls">"status"</span><span
+                    class="lp">: </span><span class="lg">"open_to_opportunities"</span></div>
+                <div class="cp-ln"><span class="ln-n">9</span><span class="lp">}</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="div"></div>
+
+    <!-- WORK / PROJECTS -->
+    <section id="work">
+      <div class="W">
+        <div class="rv">
+          <span class="ey">Selected Work</span>
+          <h2 class="st">Featured Projects</h2>
+          <p class="ss">Real-world AI/ML models, RAG document systems, computer vision tools, and full-stack applications.</p>
+        </div>
+        <div class="pj-grid">
+          <!-- Project 1 -->
+          <article class="pj rv" data-d="1">
+            <div class="pj-img">
+              <img src="profile.svg" alt="AI Resume Analyzer" loading="lazy">
+              <div class="pj-imgov"></div><span class="pj-ft">Featured</span>
+            </div>
+            <div class="pj-body">
+              <div class="pj-top"><span class="pj-n">01</span><span class="pj-c">AI / GenAI</span></div>
+              <h3 class="pj-name">AI Resume Analyzer</h3>
+              <p class="pj-sub">// intelligent resume evaluation & ATS optimization</p>
+              <div class="pj-metric"><span class="pm-v">LLM Powered</span><span class="pm-l">NLP Skill Extraction</span></div>
+              <p class="pj-desc">An AI-powered resume analysis system that evaluates resumes, extracts candidate skills using NLP, provides actionable improvement suggestions, and optimizes resumes for ATS algorithms.</p>
+              <div class="pj-stack">
+                <span>Python</span><span>NLP</span><span>Generative AI</span><span>LangChain</span><span>Streamlit</span>
+              </div>
+              <div class="pj-foot"><a href="https://github.com/deekshith-vataparthi" target="_blank" rel="noopener"
+                  class="pj-lnk">view_source() <i class="bx bx-link-external"></i></a></div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="pj rv" data-d="2">
+            <div class="pj-img">
+              <img src="profile.svg" alt="RAG PDF QA System" loading="lazy">
+              <div class="pj-imgov"></div><span class="pj-ft">Featured</span>
+            </div>
+            <div class="pj-body">
+              <div class="pj-top"><span class="pj-n">02</span><span class="pj-c">GenAI / RAG</span></div>
+              <h3 class="pj-name">RAG PDF Question Answering System</h3>
+              <p class="pj-sub">// retrieval augmented document chatbot</p>
+              <p class="pj-desc">An intelligent document chatbot enabling users to upload multi-page PDFs and ask natural language questions using RAG, vector embeddings, chunking, and LLMs for accurate context retrieval.</p>
+              <div class="pj-stack">
+                <span>Python</span><span>LangChain</span><span>Vector DB</span><span>LLMs</span><span>RAG</span>
+              </div>
+              <div class="pj-foot"><a href="https://github.com/deekshith-vataparthi" target="_blank"
+                  rel="noopener" class="pj-lnk">view_source() <i class="bx bx-link-external"></i></a></div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="pj rv" data-d="3">
+            <div class="pj-img">
+              <img src="profile.svg" alt="Skin Infection Detection AI" loading="lazy">
+              <div class="pj-imgov"></div>
+            </div>
+            <div class="pj-body">
+              <div class="pj-top"><span class="pj-n">03</span><span class="pj-c">Computer Vision / DL</span></div>
+              <h3 class="pj-name">Skin Infection Detection Using AI</h3>
+              <p class="pj-sub">// deep learning computer vision diagnostic application</p>
+              <p class="pj-desc">A computer vision based AI application that analyzes skin lesion images, classifies conditions using Convolutional Neural Networks (CNN), and provides medical insights using Generative AI.</p>
+              <div class="pj-stack">
+                <span>Python</span><span>TensorFlow</span><span>CNN</span><span>Generative AI</span><span>OpenCV</span></div>
+              <div class="pj-foot"><a href="https://github.com/deekshith-vataparthi" target="_blank"
+                  rel="noopener" class="pj-lnk">view_source() <i class="bx bx-link-external"></i></a></div>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="pj rv" data-d="4">
+            <div class="pj-img">
+              <img src="profile.svg" alt="Secure Online Exam System" loading="lazy">
+              <div class="pj-imgov"></div>
+            </div>
+            <div class="pj-body">
+              <div class="pj-top"><span class="pj-n">04</span><span class="pj-c">Full Stack / ML</span></div>
+              <h3 class="pj-name">Secure Online Aptitude Examination System</h3>
+              <p class="pj-sub">// secure examination & proctoring platform</p>
+              <p class="pj-desc">A secure online exam platform featuring multi-factor authentication, intelligent ML monitoring, automated evaluation, and anti-cheating security controls for aptitude testing.</p>
+              <div class="pj-stack"><span>Full Stack</span><span>Node.js</span><span>Express</span><span>Machine Learning</span><span>Cyber Security</span></div>
+              <div class="pj-foot"><a
+                  href="https://github.com/deekshith-vataparthi"
+                  target="_blank" rel="noopener" class="pj-lnk">view_source() <i class="bx bx-link-external"></i></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5 -->
+          <article class="pj rv" data-d="5">
+            <div class="pj-img">
+              <img src="profile.svg" alt="House Price Prediction" loading="lazy">
+              <div class="pj-imgov"></div>
+            </div>
+            <div class="pj-body">
+              <div class="pj-top"><span class="pj-n">05</span><span class="pj-c">Machine Learning</span></div>
+              <h3 class="pj-name">House Price Prediction System</h3>
+              <p class="pj-sub">// real estate predictive analytics model</p>
+              <p class="pj-desc">A machine learning regression pipeline predicting house valuation using Scikit-learn algorithms, feature engineering, exploratory data analysis, and evaluation metrics.</p>
+              <div class="pj-stack"><span>Python</span><span>Pandas</span><span>NumPy</span><span>Scikit-learn</span><span>Matplotlib</span></div>
+              <div class="pj-foot"><a
+                  href="https://github.com/deekshith-vataparthi"
+                  target="_blank" rel="noopener" class="pj-lnk">view_source() <i class="bx bx-link-external"></i></a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="div"></div>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="W">
+        <div class="rv">
+          <span class="ey">Expertise</span>
+          <h2 class="st">Technical Skills</h2>
+          <p class="ss">Categorized tech stack mastered through coursework, hands-on projects, and internships.</p>
+        </div>
+        <div class="sk-grid">
+          <!-- Card 1: AI / ML & GenAI -->
+          <div class="sk rv" data-d="1">
+            <div class="sk-hd">
+              <div class="sk-ico"><i class="bx bx-brain"></i></div><span class="sk-nm">AI / ML &amp; GenAI</span>
+            </div>
+            <div class="sk-items">
+              <div class="sk-it"><i class="bx bx-bot sk-ii"></i><span class="sk-in">Generative AI &amp; LLMs</span></div>
+              <div class="sk-it"><i class="bx bx-book-bookmark sk-ii"></i><span class="sk-in">RAG &amp; LangChain</span></div>
+              <div class="sk-it"><i class="bx bx-chip sk-ii"></i><span class="sk-in">TensorFlow &amp; PyTorch</span></div>
+              <div class="sk-it"><i class="bx bx-scatter-chart sk-ii"></i><span class="sk-in">Deep Learning &amp; CNN</span></div>
+              <div class="sk-it"><i class="bx bx-line-chart sk-ii"></i><span class="sk-in">Scikit-learn</span></div>
+            </div>
+          </div>
+
+          <!-- Card 2: Programming Languages -->
+          <div class="sk rv" data-d="2">
+            <div class="sk-hd">
+              <div class="sk-ico"><i class="bx bx-code-alt"></i></div><span class="sk-nm">Languages</span>
+            </div>
+            <div class="sk-items">
+              <div class="sk-it"><i class="bx bxl-python sk-ii"></i><span class="sk-in">Python</span></div>
+              <div class="sk-it"><i class="bx bxl-c-plus-plus sk-ii"></i><span class="sk-in">C++</span></div>
+              <div class="sk-it"><i class="bx bxl-java sk-ii"></i><span class="sk-in">Java</span></div>
+              <div class="sk-it"><i class="bx bx-code-curly sk-ii"></i><span class="sk-in">C</span></div>
+              <div class="sk-it"><i class="bx bxl-javascript sk-ii"></i><span class="sk-in">JavaScript</span></div>
+            </div>
+          </div>
+
+          <!-- Card 3: Backend Engineering -->
+          <div class="sk rv" data-d="3">
+            <div class="sk-hd">
+              <div class="sk-ico"><i class="bx bx-server"></i></div><span class="sk-nm">Backend Development</span>
+            </div>
+            <div class="sk-items">
+              <div class="sk-it"><i class="bx bxl-nodejs sk-ii"></i><span class="sk-in">Node.js</span></div>
+              <div class="sk-it"><i class="bx bx-extension sk-ii"></i><span class="sk-in">Express.js</span></div>
+              <div class="sk-it"><i class="bx bx-hot sk-ii"></i><span class="sk-in">Flask</span></div>
+              <div class="sk-it"><i class="bx bx-code-block sk-ii"></i><span class="sk-in">Django</span></div>
+              <div class="sk-it"><i class="bx bx-transfer sk-ii"></i><span class="sk-in">REST APIs</span></div>
+            </div>
+          </div>
+
+          <!-- Card 4: Frontend Development -->
+          <div class="sk rv" data-d="4">
+            <div class="sk-hd">
+              <div class="sk-ico"><i class="bx bx-paint"></i></div><span class="sk-nm">Frontend Development</span>
+            </div>
+            <div class="sk-items">
+              <div class="sk-it"><i class="bx bxl-react sk-ii"></i><span class="sk-in">React.js</span></div>
+              <div class="sk-it"><i class="bx bxl-html5 sk-ii"></i><span class="sk-in">HTML5</span></div>
+              <div class="sk-it"><i class="bx bxl-css3 sk-ii"></i><span class="sk-in">CSS3</span></div>
+              <div class="sk-it"><i class="bx bx-mobile-alt sk-ii"></i><span class="sk-in">Responsive Web</span></div>
+            </div>
+          </div>
+
+          <!-- Card 5: Databases -->
+          <div class="sk rv" data-d="1">
+            <div class="sk-hd">
+              <div class="sk-ico"><i class="bx bx-data"></i></div><span class="sk-nm">Databases</span>
+            </div>
+            <div class="sk-items">
+              <div class="sk-it"><i class="bx bxl-postgresql sk-ii"></i><span class="sk-in">PostgreSQL</span></div>
+              <div class="sk-it"><i class="bx bxl-mongodb sk-ii"></i><span class="sk-in">MongoDB</span></div>
+              <div class="sk-it"><i class="bx bx-table sk-ii"></i><span class="sk-in">MySQL</span></div>
+            </div>
+          </div>
+
+          <!-- Card 6: Computer Science Core -->
+          <div class="sk rv" data-d="2">
+            <div class="sk-hd">
+              <div class="sk-ico"><i class="bx bx-cube"></i></div><span class="sk-nm">CS Fundamentals</span>
+            </div>
+            <div class="sk-items">
+              <div class="sk-it"><i class="bx bx-layer sk-ii"></i><span class="sk-in">DSA</span></div>
+              <div class="sk-it"><i class="bx bx-box sk-ii"></i><span class="sk-in">OOP</span></div>
+              <div class="sk-it"><i class="bx bx-desktop sk-ii"></i><span class="sk-in">Operating Systems</span></div>
+              <div class="sk-it"><i class="bx bx-data sk-ii"></i><span class="sk-in">DBMS</span></div>
+              <div class="sk-it"><i class="bx bx-wifi sk-ii"></i><span class="sk-in">Computer Networks</span></div>
+              <div class="sk-it"><i class="bx bx-sitemap sk-ii"></i><span class="sk-in">System Design</span></div>
+            </div>
+          </div>
+
+          <!-- Card 7: Tools & Environment -->
+          <div class="sk rv" data-d="3">
+            <div class="sk-hd">
+              <div class="sk-ico"><i class="bx bx-wrench"></i></div><span class="sk-nm">Tools &amp; Tools</span>
+            </div>
+            <div class="sk-items">
+              <div class="sk-it"><i class="bx bxl-git sk-ii"></i><span class="sk-in">Git &amp; GitHub</span></div>
+              <div class="sk-it"><i class="bx bx-code-block sk-ii"></i><span class="sk-in">VS Code</span></div>
+              <div class="sk-it"><i class="bx bxl-tux sk-ii"></i><span class="sk-in">Linux</span></div>
+              <div class="sk-it"><i class="bx bxl-docker sk-ii"></i><span class="sk-in">Docker</span></div>
+              <div class="sk-it"><i class="bx bx-rocket sk-ii"></i><span class="sk-in">Streamlit</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SKILL NETWORK GRAPH -->
+        <div class="sk-graph-wrap rv">
+          <div class="sk-graph-label">Skill Network — hover to explore connections</div>
+          <canvas id="sk-graph-cv"></canvas>
+          <p class="sk-graph-hint">hover a node to highlight its connections &bull; drag to move &bull; dbl-click to unpin</p>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="div"></div>
+
+    <!-- JOURNEY -->
+    <section id="journey">
+      <div class="W">
+        <div class="rv">
+          <span class="ey">Journey</span>
+          <h2 class="st">Education & Experience</h2>
+          <p class="ss">Academic path, virtual internship, and engineering milestones.</p>
+        </div>
+
+        <div class="journey-wrap">
+          <div class="journey-road"></div>
+
+          <!-- 1. Schooling & Early Foundation -->
+          <div class="jn-item rv">
+            <div class="jn-card">
+              <div class="jn-year">sai srinivasa educational institutions</div>
+              <div class="jn-title">Schooling  &amp; sri chaitanya jr college tirupati</div>
+              <div class="jn-sub">// Andhra Pradesh, India 🇮🇳</div>
+              <p class="jn-desc">Completed foundational schooling and higher secondary education in Andhra Pradesh with strong academic performance in Physics, Mathematics, and Computer Science.</p>
+              <div class="jn-tags">
+                <span class="jn-tag">Mathematics</span>
+                <span class="jn-tag">Physics</span>
+                <span class="jn-tag">Computer Science</span>
+                <span class="jn-tag">Andhra Pradesh</span>
+              </div>
+            </div>
+            <div class="jn-dot"></div>
+            <div class="jn-spacer"></div>
+          </div>
+
+          <!-- 2. B.Tech CSE SVCET -->
+          <div class="jn-item rv">
+            <div class="jn-spacer"></div>
+            <div class="jn-dot"></div>
+            <div class="jn-card">
+              <div class="jn-year">Undergraduate</div>
+              <div class="jn-title">B.Tech in Computer Science Engineering</div>
+              <div class="jn-sub">// Sri Venkateswara College of Engineering Technology (SVCET) · Chittoor, AP, India 🇮🇳</div>
+              <p class="jn-desc">Enrolled in Bachelor of Technology in Computer Science Engineering. Studying core Computer Science subjects including DSA, Operating Systems, DBMS, Networks, OOP, System Design, and Artificial Intelligence.</p>
+              <div class="jn-tags">
+                <span class="jn-tag">B.Tech CSE</span>
+                <span class="jn-tag">SVCET</span>
+                <span class="jn-tag">Chittoor, AP</span>
+                <span class="jn-tag">DSA</span>
+                <span class="jn-tag">AI/ML ENGINNER,FULLSTACKDEVELOPER,CYBER SEURITY</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Infosys Springboard AI/ML Virtual Internship -->
+          <div class="jn-item rv">
+            <div class="jn-card">
+              <div class="jn-year">Virtual Internship</div>
+              <div class="jn-title">Infosys Springboard — AI / ML Intern</div>
+              <div class="jn-sub">// Infosys Springboard · Virtual Internship</div>
+              <p class="jn-desc">Completed a comprehensive virtual internship focused on Artificial Intelligence and Machine Learning. Implemented supervised/unsupervised machine learning models, neural networks, natural language processing, and predictive algorithms using Python and TensorFlow.</p>
+              <div class="jn-tags">
+                <span class="jn-tag">Machine Learning</span>
+                <span class="jn-tag">Deep Learning</span>
+                <span class="jn-tag">NLP</span>
+                <span class="jn-tag">Python</span>
+                <span class="jn-tag">TensorFlow</span>
+              </div>
+            </div>
+            <div class="jn-dot"></div>
+            <div class="jn-spacer"></div>
+          </div>
+
+          <!-- 4. Real-World AI & Web Projects -->
+          <div class="jn-item rv">
+            <div class="jn-spacer"></div>
+            <div class="jn-dot"></div>
+            <div class="jn-card">
+              <div class="jn-year">
+                Ongoing
+                <span class="jn-badge">● ONGOING</span>
+              </div>
+              <div class="jn-title">AI &amp; Full Stack System Engineering</div>
+              <div class="jn-sub">// Generative AI · RAG Systems · Full Stack Applications</div>
+              <p class="jn-desc">Building and deploying production-ready AI applications including AI Resume Analyzer, RAG PDF QA Chatbots, Skin Infection Detection models, and full-stack web platforms while targeting product-based engineering roles.</p>
+              <div class="jn-tags">
+                <span class="jn-tag">RAG</span>
+                <span class="jn-tag">LangChain</span>
+                <span class="jn-tag">React.js</span>
+                <span class="jn-tag">Node.js</span>
+                <span class="jn-tag">LeetCode 500+</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="journey-end">
+            <div class="je-dot"></div>
+            <div class="je-label">the journey continues...</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="div"></div>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="W">
+        <div class="ct-inner rv">
+          <span class="ey">Contact</span>
+          <h2 class="st">Let's Build Something Exceptional</h2>
+          <p class="ct-desc">Actively seeking software engineering roles, AI/ML engineering positions, and project collaborations. If you're building software that makes an impact, let's talk.</p>
+          <div class="ct-email-row">
+            <a href="mailto:deekshith@example.com?subject=Contact%20from%20Portfolio" class="ct-email"><i
+                class="bx bx-envelope"></i><span>deekshith@example.com</span></a>
+            <button class="copy-btn" id="copy-btn" onclick="copyEmail()">
+              <i class="bx bx-copy" id="copy-icon"></i><span id="copy-txt">Copy</span>
+            </button>
+          </div>
+          <div class="ct-meta">
+            <span class="ct-mi"><i class="bx bx-map"></i>Berivanikandriga, Vadamalapeta, Tirupati, Andhra Pradesh, India - 517551</span>
+          </div>
+        <div class="ct-soc">
+    <a href="https://github.com/vdeekshith2007" target="_blank" rel="noopener" class="soc">
+        <i class="bx bxl-github"></i> GitHub
+    </a>
+
+    <a href="https://linkedin.com/in/vataparthi-deekshith" target="_blank" rel="noopener" class="soc">
+        <i class="bx bxl-linkedin"></i> LinkedIn
+    </a>
+
+    <a href="https://leetcode.com/DEEKSHITH_VIJAYBHASKAR" target="_blank" rel="noopener" class="soc">
+        <i class="fa-brands fa-leetcode"></i> LeetCode
+    </a>
+
+    <a href="mailto:vataparthideekshith18@gmail.com" class="soc">
+        <i class="bx bx-envelope"></i> Email
+    </a>
+</div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="ft">
+      <span class="ft-l">
+        <span class="ft-a">&lt;</span><span class="ft-a">Deekshith Vataparthi</span><span class="ft-a">/&gt;</span>
+        <span style="color:var(--tx3)"> &mdash; </span>
+        <span class="fb">&#64;2026</span>
+        <span style="color:var(--tx3)"> &mdash; </span>
+        <span class="fc">built with terminal energy</span>
+      </span>
+      <span class="ft-r" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+        cd ~/<i class="bx bx-up-arrow-alt"></i>
+      </span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
