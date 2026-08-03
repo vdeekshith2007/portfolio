@@ -31,7 +31,7 @@
   }
   setTimeout(bootStep, 200);
 
-  /* ══ 2. THEME ══════════════════════════════════════════════════ */
+  /* ══ 2. THEME  ask══════════════════════════════════════════════════ */
   const stored = localStorage.getItem("dv_theme");
   const sysDark = window.matchMedia("(prefers-color-scheme:dark)").matches;
   H.setAttribute("data-theme", stored || (sysDark ? "dark" : "light"));
