@@ -31,7 +31,7 @@
   }
   setTimeout(bootStep, 200);
 
-  /* ══ 2. THEME  ask══════════════════════════════════════════════════ */
+  /* ══ 2. THEME ════════════════════════════════════════════════════ */
   const stored = localStorage.getItem("dv_theme");
   const sysDark = window.matchMedia("(prefers-color-scheme:dark)").matches;
   H.setAttribute("data-theme", stored || (sysDark ? "dark" : "light"));
@@ -422,7 +422,7 @@
 
   /* ══ 11. COPY EMAIL ════════════════════════════════════════════ */
   function copyEmail() {
-    const emailStr = "deekshith@example.com";
+    const emailStr = "vataparthideekshith18@gmail.com";
     navigator.clipboard
       .writeText(emailStr)
       .then(() => {
