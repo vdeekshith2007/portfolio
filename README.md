@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi 👋, I'm **Deekshith Vataparthi**
+# Hi 👋, I'm **Deekshith Vataparthi**  
 
 ### 💻 Computer Science Student | AI & ML Enthusiast | Full Stack Developer | Open Source Learner
 
